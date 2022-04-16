@@ -1,0 +1,84 @@
+header, body, footer{
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    margin: auto 10px;
+}
+
+.body{
+    display: flex;
+    flex-direction: column;
+}
+
+.mission{
+    background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg');
+    width: 1200px;
+    height: 700px;
+    opacity: 0.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.container_mission{
+    background-color: black;
+    width: 100%;
+    height: auto;
+}
+
+.container_head a{
+    text-decoration: underline;
+}
+
+.logo{
+    height: 50px;
+}
+
+.container_head{
+    display: flex;
+    flex-direction: row;
+    height: 69px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tea_cozy{
+    margin-top: 0px;
+}
+
+.container_month{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+}
+
+.photo_month{
+    height: 200px;
+    width: 300px;
+    margin: auto 10px;
+}
+
+.container_month_photos{
+    display: flex;
+    flex-direction: row;
+    width: 1000px;
+    flex-wrap: wrap;
+    justify-content: center;
+    opacity: 0.7;
+}
+
+.month_desc{
+    text-align: center;
+    margin: 10px auto 20px;
+}
